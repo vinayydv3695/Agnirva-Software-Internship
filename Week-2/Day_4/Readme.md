@@ -27,13 +27,29 @@
 
 Accesses an array index — takes the same time regardless of size.
 
+**Screenshot:**
+
+![O(1) - Constant Time](./assets/constanttime.png)
+
+---
+
 ### `02_linear_time.js`
 
 Uses `forEach()` to loop through an array — time grows with input size.
 
+**Screenshot:**
+
+![O(n) - Linear Time](./assets/lineartime.png)
+
+---
+
 ### `03_quadratic_time.js`
 
 Nested `for` loops — time grows exponentially with input size.
+
+**Screenshot:**
+
+![O(n²) - Quadratic Time](./assets/quadratictime.png)
 
 ---
 
@@ -45,9 +61,11 @@ Nested `for` loops — time grows exponentially with input size.
 - Time Complexity: O(n²)
 - Inefficient for large lists.
 
-### Output Example
+**Output Screenshot:**
 
-## Sorted Array: [11, 12, 22, 25, 34, 64, 90]
+![Bubble Sort Output](./assets/bubblesort.png)
+
+---
 
 ## 🧪 Performance Comparison
 
@@ -58,22 +76,9 @@ Nested `for` loops — time grows exponentially with input size.
   - `bubbleSort()` — O(n²)
   - `Array.prototype.sort()` — O(n log n)
 
-### Output Sample
+**Performance Screenshot:**
 
-Bubble Sort Time (ms): 2301.11
-Built-In Sort Time (ms): 2.35
-
----
-
-## 📸 Screenshots
-
-> 📷 Paste screenshots of your DevTools timing comparisons below:
-
-1. **Bubble Sort Timing Output:**  
-   _[PLACE SCREENSHOT HERE]_
-
-2. **Built-in Sort Timing Output:**  
-   _[PLACE SCREENSHOT HERE]_
+![Performance Comparison](./assets/compare.png)
 
 ---
 
@@ -86,6 +91,7 @@ Built-In Sort Time (ms): 2.35
 | 03_quadratic_time.js | O(n²) example                             |
 | 04_bubble_sort.js    | Bubble Sort implementation                |
 | 05_compare_sorts.js  | Compare performance of bubble vs built-in |
+| assets/              | Contains screenshots of output            |
 
 ---
 
