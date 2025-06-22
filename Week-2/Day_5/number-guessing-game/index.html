@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Number Guessing Game</h2>
+    <p>
+      I have selected a number between 1 and <span id="rangeDisplay">100</span>.
+      Can you guess it?
+    </p>
+
+    <label for="difficulty">Choose Difficulty:</label>
+    <select id="difficulty" onchange="setDifficulty()">
+      <option value="50">Easy (1–50)</option>
+      <option value="100" selected>Medium (1–100)</option>
+      <option value="500">Hard (1–500)</option>
+    </select>
+
+    <br /><br />
+    <input type="number" id="guessInput" placeholder="Enter your guess" />
+    <button onclick="checkGuess()">Submit Guess</button>
+    <button onclick="resetGame()">Reset Game</button>
+
+    <p id="feedback"></p>
+    <p id="attemptsInfo"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
