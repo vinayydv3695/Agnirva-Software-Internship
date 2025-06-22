@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h2 {
+  color: #333;
+}
+
+input,
+select,
+button {
+  margin: 5px 0;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+#feedback {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#attemptsInfo {
+  color: #666;
+}
