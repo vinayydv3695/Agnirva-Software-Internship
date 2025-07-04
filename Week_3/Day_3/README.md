@@ -15,15 +15,6 @@ This project is a simple Node.js + Express back-end server built as part of Day 
 
 - [Node.js](https://nodejs.org/) installed
 
-### Setup Instructions
-
-```bash
-git clone <your-repo-url>
-cd node-server
-npm install
-node server.js
-```
-
 Then visit the following in your browser:
 
 - http://localhost:3000/ — Root route
@@ -53,7 +44,3 @@ Then visit the following in your browser:
 ### JSON API Route
 
 ![JSON API](./assets/250704_20h00m09s_screenshot.png)
-
-## Author
-
-Vinay
