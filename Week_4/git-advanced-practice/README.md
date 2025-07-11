@@ -1,10 +1,5 @@
 ---
-
-```markdown
-# Git Advanced Practice
-
-This project is a hands-on practice of **Advanced Git concepts**, including branching, merging, conflict resolution, and collaborative workflows.
-
+## Git Advanced Practice
 ---
 
 ## What You Practiced
