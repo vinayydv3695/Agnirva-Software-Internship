@@ -33,7 +33,7 @@ This repository contains two sub-projects demonstrating basic unit testing using
 
 ### Test Output
 
-![JavaScript Jest Test Screenshot](./assets/250712_20h35m00s_screenshot.png)
+![JavaScript Jest Test Screenshot](./assets/js.png)
 
 ---
 
@@ -52,7 +52,7 @@ This repository contains two sub-projects demonstrating basic unit testing using
 
 ### Test Output
 
-![Python pytest Test Screenshot](./assets/250712_20h38m16s_screenshot.png)
+![Python pytest Test Screenshot](./assets/py.png)
 
 ---
 
